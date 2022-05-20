@@ -6,7 +6,7 @@ function App() {
 const [counter, setCounter] = useState(1)
 
 	useEffect(()=>{
-document.querySelector("title").innerHTML = `Count (${counter})`
+	document.title = `Count (${counter})`
 
 	},[counter])
 
